@@ -1,21 +1,16 @@
-# calc_flut
+# calc_flutter
 
-Калькулятор написанный на flutter
+Калькулятор на Flutter
 
 ## Getting Started
 
-Описание для плеймаркета -
-Название приложения: Калькулятор
+This project is a starting point for a Flutter application.
 
-Описание:
-Калькулятор - простое и удобное приложение для выполнения математических операций на вашем устройстве Android. Оно предлагает интуитивно понятный интерфейс и основные функции калькулятора, позволяющие вам быстро выполнять вычисления.
+A few resources to get you started if this is your first Flutter project:
 
-Основные возможности:
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Базовые арифметические операции: сложение, вычитание, умножение и деление.
-Поддержка десятичных чисел и десятичной точки.
-Функция очистки экрана для быстрого удаления предыдущих результатов.
-Простой и интуитивно понятный дизайн с темной темой.
-Поддержка перевода приложения на русский язык.
-Кнопки с увеличенным размером для удобства использования.
-Калькулятор - надежный инструмент для быстрого и точного выполнения математических операций. Он подходит как для повседневных расчетов, так и для более сложных вычислений. Установите Калькулятор сейчас и получите удобный и надежный инструмент для работы с числами на вашем устройстве Android.
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

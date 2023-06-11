@@ -32,7 +32,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "space.lagoff.calc_flut"
+    namespace "com.timotheefortin51501.calc_flut"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -71,15 +71,25 @@ android {
     buildTypes {
         release {
             signingConfig signingConfigs.release
+
+            debug {
+                debuggable true
+                jniDebuggable true
+                minifyEnabled false
+                // Включите генерацию отладочных символов
+                ndk {
+                    debugSymbolLevel 'FULL'
+                }
+            }
         }
     }
 
-}
+    flutter {
+        source '../..'
+    }
 
-flutter {
-    source '../..'
-}
-
-dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    dependencies {
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+        implementation 'androidx.appcompat:appcompat:1.6.1'
+    }
 }

@@ -73,7 +73,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
           aspectRatio: 1.0,
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
-              primary: Colors.blueGrey[700],
+              backgroundColor: Colors.blueGrey[700],
               shape: RoundedRectangleBorder(),
             ),
             onPressed: () => _onButtonPressed(buttonText),
